@@ -1,0 +1,55 @@
+import type { CompanyInfo, HistoryItem } from "@/types";
+
+export const companyInfo: CompanyInfo = {
+  name: "小林建設株式会社",
+  representative: "小林 正樹",
+  established: "1981年（昭和56年）",
+  address: "埼玉県さいたま市大宮区桜木町1-2-3",
+  phone: "048-XXX-XXXX",
+  fax: "048-XXX-XXXX",
+  businessHours: "8:00〜18:00",
+  holidays: "日曜・祝日",
+  licenses: [
+    "一級建築士事務所 埼玉県知事登録 第XXXXX号",
+    "一級建築士 第XXXXXX号",
+    "一級建築施工管理技士",
+    "二級建築施工管理技士",
+    "宅地建物取引士",
+  ],
+  constructionPermit: "埼玉県知事許可（般-XX）第XXXXX号",
+  business: [
+    "注文住宅の設計・施工",
+    "住宅リフォーム・リノベーション",
+    "外構工事・エクステリア",
+    "耐震診断・耐震補強工事",
+    "店舗・事務所の設計・施工",
+  ],
+  employees: "25名（うち職人12名）",
+  serviceArea: "さいたま市を中心に車で1時間圏内",
+  serviceAreaCities: [
+    "さいたま市",
+    "川越市",
+    "川口市",
+    "越谷市",
+    "所沢市",
+    "草加市",
+    "春日部市",
+    "上尾市",
+    "熊谷市",
+    "戸田市",
+  ],
+  nearestStation: "JR大宮駅 西口より徒歩10分",
+  parking: "駐車場5台完備",
+};
+
+export const companyHistory: HistoryItem[] = [
+  { year: "1981", event: "小林建設として創業。代表・小林正樹の父が大工職人として独立" },
+  { year: "1990", event: "法人化し「小林建設株式会社」に改組。社員5名体制へ" },
+  { year: "1998", event: "一級建築士事務所登録。設計から施工まで一貫体制を確立" },
+  { year: "2003", event: "年間施工棟数30棟を達成。リフォーム事業部を新設" },
+  { year: "2008", event: "小林正樹が代表取締役に就任。自然素材住宅への取り組みを強化" },
+  { year: "2012", event: "ZEH（ゼロエネルギーハウス）ビルダー登録" },
+  { year: "2018", event: "年間施工棟数50棟を突破。従業員25名体制に" },
+  { year: "2023", event: "創業42周年。累計施工実績1,500棟を達成" },
+  { year: "2026", event: "創業45周年。地域密着の家づくりをさらに推進" },
+];
